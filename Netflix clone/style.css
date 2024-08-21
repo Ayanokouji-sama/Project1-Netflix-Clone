@@ -22,7 +22,7 @@ body {
 
 .top{
     display: flex;
-    gap: 25px;
+    gap: 18px;
 }
 
 .main .box {
@@ -62,7 +62,7 @@ nav button {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: white;
+    color: wheat;
     position: relative;
     gap: 15px;
     padding: 0 30px;
@@ -128,7 +128,6 @@ nav button {
     font-weight: lighter;
     border: 3px solid;
     border-color: rgba(0, 0, 0, 0%);
-    
 }
 
 .btn-red-sm {
@@ -141,13 +140,195 @@ nav button {
     border: 0cap;
 }
 
-.btn-white{
+.btn-white{ 
+    font-family: 'Poppins', sans-serif;
     background-color: rgb(40 0 0 / 21.9%);
     color: white;
-    padding: 4px 50px 4px 14px;
-    font-size: 15px;
+    padding: 4px 25px 4px 14px;
+    font-size: 16px;
     font-weight: lighter;
     flex-direction: column;
     border-radius: 4px;
     border: 1px solid rgba(250, 250, 250, 0.5);
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+    font-size: large;
+    margin-top: 10;
+    
+}
+.secImg{
+    position: relative;
+}
+
+.secImg img{
+    width: 30vw;
+    position: absolute;
+}
+
+.secImg video{
+    width: 30vw;
+}
+
+section div{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-bottom: 105px;
+}
+
+section.first>  div :first-child{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+    color: white;
+
+}
+
+section.first> div :nth-child(2){
+    font-size: 15px;
+    color: white; 
+}
+
+
+.faq :hover{
+    background-color: rgba(185, 182, 182, 0);
+}
+.faqbox{
+    transition: all 0.02s ease-out;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8px auto;
+    background-color: rgba(136, 131, 131, 0.37);
+    color: white;
+    cursor: pointer;
+    padding: 19px;
+}
+
+.h2{
+    margin-top: 52px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+
+.faq{
+    max-width: 64vw;
+    margin: auto;
+    padding: 0px;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.symbol{
+    transform: scale(.5, 1);
+    font-size: 8px;
+}
+
+.main2 {
+    margin-top: 50px;
+    background-position: center center;
+    background-size: max(1400px, 100vh);
+    height: 154px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.main2 input {
+    background-color: rgb(40 0 0 / 21.9%);
+    padding: 18px 150px 13px 9px;
+    font-size: 15px;
+    font-weight: 600;
+    flex-direction: column;
+    border-radius: 4px;
+    border: 1px solid rgba(250, 250, 250, 0.5);
+    color: white;
+}
+
+.btn2 {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+    position: relative;
+    
+}
+
+.btn-red2 {
+    background-color: red;
+    color: white;
+    padding: 11px 40px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: lighter;
+    border: 3px solid;
+    border-color: rgba(0, 0, 0, 0%);
+}
+
+.hero-buttons2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    border-radius: 4px;
+    font-weight: lighter;
+}
+
+.child2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.main2 .box2 {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0%;
 }
